@@ -1,0 +1,14 @@
+/*Global*/
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/*utilidades*/
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/botoes.css";
+
+/*Conteúdo*/
+@import "./conteudo/obras.css";
+@import "./conteudo/conheca.css";
+@import "./conteudo/comentarios.css";

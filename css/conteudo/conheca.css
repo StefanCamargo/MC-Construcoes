@@ -1,0 +1,27 @@
+.caixa {
+  display: inline-block;
+  position: relative;
+}
+.caixa p {
+  background-color: var(--cor-5);
+  opacity: 65%;
+  padding: 20px 60px 80px 60px;
+  position: absolute;
+  max-width: 22ch;
+  align-items: center;
+  margin-top: -450px;
+  margin-left: 750px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.caixa a {
+  margin-top: -338px;
+  margin-left: 780px;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .caixa {
+    display: none;
+  }
+}
